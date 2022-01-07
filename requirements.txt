@@ -1,34 +1,7 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-64
-anyio=3.3.2=py39h6e9494a_0
-asgiref=3.4.1=pyhd3eb1b0_0
-ca-certificates=2021.7.5=hecd8cb5_1
-certifi=2021.5.30=py39hecd8cb5_0
-click=8.0.1=pyhd3eb1b0_0
-fastapi=0.70.0=pyhd8ed1ab_0
-h11=0.12.0=pyhd3eb1b0_0
-idna=3.2=pyhd3eb1b0_0
-importlib-metadata=4.8.1=py39hecd8cb5_0
-libcxx=12.0.0=h2f01273_0
-libffi=3.3=hb1e8313_2
-ncurses=6.2=h0a44026_1
-openssl=1.1.1l=h9ed2024_0
-pip=21.2.4=py39hecd8cb5_0
-pydantic=1.8.2=py39h9ed2024_0
-python=3.9.7=h88f2d9e_1
-python_abi=3.9=2_cp39
-readline=8.1=h9ed2024_0
-setuptools=58.0.4=py39hecd8cb5_0
-sniffio=1.2.0=py39hecd8cb5_1
-sqlite=3.36.0=hce871da_0
-starlette=0.16.0=pyhd8ed1ab_0
-tk=8.6.11=h7bc2e8c_0
-typing-extensions=3.10.0.2=hd3eb1b0_0
-typing_extensions=3.10.0.2=pyh06a4308_0
-tzdata=2021a=h5d7bf9c_0
-uvicorn=0.15.0=py39h6e9494a_1
-wheel=0.37.0=pyhd3eb1b0_1
-xz=5.2.5=h1de35cc_0
-zipp=3.6.0=pyhd3eb1b0_0
-zlib=1.2.11=h1de35cc_3
+anyio==3.4.0
+fastapi==0.70.1
+idna==3.3
+pydantic==1.9.0
+sniffio==1.2.0
+starlette==0.16.0
+typing_extensions==4.0.1
