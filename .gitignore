@@ -133,6 +133,7 @@ dmypy.json
 
 #virtualenv
 hackeps-backend-env
+.hackeps-backend-env
 
 #keys
 app/core/config/credentials

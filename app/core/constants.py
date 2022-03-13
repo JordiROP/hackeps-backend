@@ -1,0 +1,6 @@
+'''DB types'''
+FIREBASE_DB='FIREBASE'
+
+'''Environament keys'''
+FIREBASE_CONFIG="FIREBASE_CONFIG"
+DB_TYPE="DB_TYPE"

@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 
-from .core.persistance.db_manager import DBManager
+from .core.config import load_env 
 from .router import api_router
-from .core.config.config import DB_TYPE
 
 def get_app() -> FastAPI:
     app = FastAPI(
@@ -13,5 +12,5 @@ def get_app() -> FastAPI:
     app.include_router(api_router)
     return app
 
-db_manager = DBManager.create_db_instance(DB_TYPE)
+load_env()
 app = get_app()
